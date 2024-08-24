@@ -45,23 +45,30 @@ body{
 /* day-night mode  dark-mode */
 
 .dark-mode{
-    background-color: black;
+    background-color:rgb(0, 175, 146);
     color: white;
     font-size: 30px;
-    padding: 6px 16px;
+    padding: 0px 12px;
     border-radius: 50%;
     position: fixed;
-    top: 120px;
+    top: 125px;
     right: 30px;
-  cursor: pointer;
-    box-shadow: 0px 0px 18px rgba(0,0,0,0.9);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
 
     
 }
 
 
+.dark-mode:hover{
+    box-shadow: 0px 1px 28px rgb(169, 220, 215);
+
+}
+
+
 .dark-mode i{
-    font-size: 32px;
-    color: yellow;
+    font-size: 22px;
+ 
 }
 
