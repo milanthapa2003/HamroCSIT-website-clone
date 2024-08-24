@@ -1,0 +1,160 @@
+
+
+
+
+
+
+/* quick links footer secton */
+
+
+
+
+.quick-links-footer{
+    background-color:rgb(247, 248, 249);
+   
+}
+
+.quick-links-footer-wrapper{
+    width:90%;
+  
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 60px 30px;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.footer-logo a{
+    text-decoration: none;
+  
+}
+
+
+.footer-logo h2:hover{
+    color: rgb(93, 93, 246);
+
+}
+
+.quick-links-list-item{
+
+    margin-right: 10px;
+    padding: 20px;
+}
+
+
+
+.logo-section{
+    display:inline-block;
+    width: 400px;
+    color:#757f95;
+ 
+    
+   
+}
+
+.logo-section h3{
+    color: rgba(0, 0, 0, 0.688);
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.logo-section #email{
+    padding-top: 20px;
+}
+
+.logo-section p i{
+    padding-right: 10px;
+}
+
+
+.quick-links-list-item h2{
+    margin-bottom: 35px;
+    position: relative;
+}
+
+
+.quick-links-list-item ul li{
+   
+    list-style: none;
+
+}
+
+/* under line on li  */
+
+
+.quick-links-list-item h2::after{
+    position: absolute;
+    content: '';
+    width: 40%;
+    left: 0;
+    bottom: -10px;
+    height: 4px;
+   
+
+    background-color: rgb(0, 175, 146);
+   
+   
+  
+}
+
+
+
+
+
+.quick-links-list-item ul li a{
+    text-decoration: none;
+    color:#757f95;
+}
+
+.quick-links-list-item ul li a:hover{
+    color:black;
+}
+
+
+.social-link{
+ 
+    display: flex;
+}
+
+.social-link i{
+    font-size: 30px;
+    margin-right: 10px;
+    padding:5px;
+    cursor: pointer;
+   color: white;
+}
+
+.social-link .facebook{
+    background-color: rgb(59, 89, 152);
+  
+}
+
+.social-link .twitter{
+    background-color: rgb(0, 172, 238);
+ 
+    
+    
+}
+
+.social-link .youtube{
+    background-color: rgb(196, 48, 43);
+}
+
+.social-link .pinterest{
+    background-color: rgb(221, 75, 57);
+}
+
+.social-link .linkedin{
+    background-color: rgb(0, 175, 146);
+}
+
+
+.social-link i:hover{
+    opacity: 0.7;
+ 
+}

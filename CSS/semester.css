@@ -1,0 +1,274 @@
+
+
+
+
+
+/* semester heading */
+
+.semester-heading{
+
+    text-align: center;
+    padding: 45px 0px;
+    font-size: 20px;
+}
+
+.semester-heading h1 span{
+    color: #00AF92;
+}
+
+.semester-heading h1{
+    margin-bottom: 20px;
+}
+
+
+/* semester */
+
+.semester{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.semester-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+  
+    padding: 50px 50px 50px 150px;
+}
+
+.semester-item{
+    width: 320px;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
+
+}
+
+/* hover effect on semester - item */
+.semester-item:hover{
+    background-color: white;
+}
+
+
+.semester-item-heading h2{
+    font-size: 20px;
+}
+
+
+
+.semester-item-heading p{
+    font-size:16px;
+    color: #6e7485;
+}
+
+.semester-item-logo{
+    background-color: white;
+    font-size: 40px;
+    padding: 0px 14px;
+    border-radius: 6px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.semester-item-logo i{
+    transition: 0.3s ease-in-out;
+}
+
+/* semester background color for each */
+
+/* item 1 */
+
+
+.item-1{
+    background-color:  #f3e3d3;
+  
+}
+.item-1 i{
+    color:rgb(253, 143, 33) ;
+}
+
+.item-1:hover .semester-item-logo{
+    background-color: rgb(253, 143, 33);
+  
+}
+
+.item-1:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+
+/* item 2 */
+
+.item-2{
+    background-color:#f3d6d6 ;
+}
+
+.item-2 i{
+    color: rgb(227, 68, 68);
+}
+
+.item-2:hover .semester-item-logo{
+    background-color: rgb(227, 68, 68);
+  
+}
+
+.item-2:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+
+
+/* item 3 */
+
+.item-3{
+    background-color:#f5e5b0 ;
+}
+
+.item-3 i{
+    color: rgb(255, 201, 27);
+}
+
+
+.item-3:hover .semester-item-logo{
+    background-color: rgb(255, 201, 27);
+  
+}
+
+.item-3:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+/* item 4 */
+
+.item-4{
+    background-color:#cce7fd;
+}
+
+.item-4 i{
+    color: rgb(16, 137, 255);
+}
+
+
+.item-4:hover .semester-item-logo{
+    background-color: rgb(16, 137, 255);
+  
+}
+
+.item-4:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+
+/* item 5 */
+
+
+.item-5{
+    background-color: #d3d3f3;
+}
+.item-5 i{
+    color: rgb(86, 79, 253);
+}
+
+.item-5:hover .semester-item-logo{
+    background-color:rgb(86, 79, 253);
+  
+}
+
+.item-5:hover .semester-item-logo i{
+    color: white;
+
+}
+
+/* item 6 */
+
+.item-6{
+    background-color: #cfdbf3;
+}
+
+.item-6 i{
+    color: rgb(141, 149, 164);
+}
+
+.item-6:hover .semester-item-logo{
+    background-color: rgb(141, 149, 164);
+  
+}
+
+.item-6:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+
+/* item 7 */
+
+.item-7{
+    background-color: #d1f3ed;
+
+}
+
+.item-7 i{
+    color: rgb(0, 175, 145);
+}
+
+
+
+.item-7:hover .semester-item-logo{
+    background-color: rgb(0, 175, 145);
+  
+}
+
+.item-7:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+/* item 8 */
+
+
+.item-8{
+    background-color:#cff0d2 ;
+}
+
+.item-8 i{
+    color: rgb(39, 190, 54);
+}
+
+
+.item-8:hover .semester-item-logo{
+    background-color: rgb(39, 190, 54);
+  
+}
+
+.item-8:hover .semester-item-logo i{
+    color: white;
+
+}
+
+
+
+
+

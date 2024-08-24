@@ -1,0 +1,67 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+
+body{
+
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+  
+
+}
+
+
+
+
+
+/* floating message */
+
+.message-me{
+    background-color:rgb(24, 135, 251);
+    position:fixed;
+    padding: 8px;
+    bottom: 17px;
+    left: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.message-me i{
+    font-size: 32px;
+    color: white;
+}
+
+
+/* day-night mode  dark-mode */
+
+.dark-mode{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 6px 16px;
+    border-radius: 50%;
+    position: fixed;
+    top: 120px;
+    right: 30px;
+  cursor: pointer;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.9);
+
+    
+}
+
+
+.dark-mode i{
+    font-size: 32px;
+    color: yellow;
+}
+

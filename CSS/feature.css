@@ -1,0 +1,145 @@
+
+
+
+/* hero 2 section */
+
+
+.feature-container{
+    background-color: rgb(247, 248, 249);
+    padding: 30px;
+  
+}
+
+.feature-heading{
+    text-align: center;
+    padding: 45px 0px;
+
+}
+
+.feature-heading h1{
+    margin-bottom: 20px;
+}
+
+.feature-heading p{
+    font-size: 20px;
+   
+}
+
+
+
+
+.feature-heading span{
+    color: #00AF92;
+}
+
+.feature{
+ 
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+    padding: 60px 0px;
+ 
+  
+
+   
+    
+}
+
+
+.feature-item{
+width:450px;
+margin: 0px 10px 0px 20px;
+
+padding: 40px;
+background-color: rgb(255, 255, 255);
+border-radius: 7px;
+}
+
+.feature-logo{
+    display: inline-block;
+  
+    border-radius: 7px;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in-out;
+    padding: 8px;
+ 
+    
+}
+
+.feature-logo i{
+    padding: 8px 12px;
+  
+    font-size: 40px;
+    transition: 0.3s ease-in-out;
+   
+}
+
+.feature-item-heading p{
+    color: #757f95;
+
+}
+
+
+/* for each feature item */
+
+.feature-item:hover .feature-logo i{
+    color: white;
+}
+
+/* feature 1 */
+
+
+
+.feature-1{
+    background-color:rgb(224, 246, 239) ;
+}
+
+.book-open{
+   color: rgb(0, 175, 146);
+}
+
+
+.feature-item-1:hover .feature-1{
+    background-color:rgb(0, 175, 146) ;
+}
+
+
+ 
+
+/* feature 2 */
+
+.feature-2{
+    background-color: rgb(234, 234, 255);
+}
+
+.multi-user{
+    color: rgb(86, 79, 253);
+}
+
+.feature-item-2:hover  .feature-2{
+    background-color:  rgb(86, 79, 253);
+}
+
+
+/* feature 3 */
+
+.feature-3{
+    background-color: rgb(252, 232, 232);
+}
+
+
+.message{
+    color: rgb(227, 68, 68);
+}
+
+
+.feature-item-3:hover .feature-3{
+    background-color:rgb(227, 68, 68);
+    
+}
+
+
+
+

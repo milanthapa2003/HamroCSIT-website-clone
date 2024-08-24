@@ -1,0 +1,59 @@
+
+.dropdown{
+    background-color:white;
+   
+   width: 200px;
+    display: none;
+    position: absolute;
+
+
+
+   border-top:4px solid rgb(0, 175, 146) ;
+   border-radius: 6px;
+   top: 90px;
+   cursor: pointer;
+
+   
+ 
+
+}
+
+
+.dropdown ul p{
+    padding: 7px 10px;
+    transition: 0.15s ease-in-out;
+    color: dodgerblue;
+  
+    
+}
+
+
+
+
+.dropdown ul p:hover{
+    background-color:rgb(0, 175, 146);
+    color: white;
+
+  
+}
+
+
+
+.nav-list nav ul li:hover .dropdown {
+
+    display: block;
+ 
+ 
+ 
+  
+
+   
+  
+
+}
+
+
+
+
+
+
